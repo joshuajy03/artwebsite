@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/artwebsite/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/artwebsite/static/js/main.1a38fc9c.chunk.js",
+    "main.js.map": "/artwebsite/static/js/main.1a38fc9c.chunk.js.map",
+    "runtime-main.js": "/artwebsite/static/js/runtime-main.b3648fed.js",
+    "runtime-main.js.map": "/artwebsite/static/js/runtime-main.b3648fed.js.map",
+    "static/js/2.89f1e2f3.chunk.js": "/artwebsite/static/js/2.89f1e2f3.chunk.js",
+    "static/js/2.89f1e2f3.chunk.js.map": "/artwebsite/static/js/2.89f1e2f3.chunk.js.map",
+    "static/js/3.a126db9d.chunk.js": "/artwebsite/static/js/3.a126db9d.chunk.js",
+    "static/js/3.a126db9d.chunk.js.map": "/artwebsite/static/js/3.a126db9d.chunk.js.map",
+    "index.html": "/artwebsite/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/artwebsite/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.89f1e2f3.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.89f1e2f3.chunk.js.LICENSE.txt",
+    "static/media/logo.7f799ddd.svg": "/artwebsite/static/media/logo.7f799ddd.svg",
+    "static/media/logoMobile.1b06bd40.svg": "/artwebsite/static/media/logoMobile.1b06bd40.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3648fed.js",
+    "static/js/2.89f1e2f3.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.1a38fc9c.chunk.js"
+  ]
+}
