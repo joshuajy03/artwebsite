@@ -57,7 +57,7 @@ function NavBar() {
                 <Typography variant="h6" className={classes.menuItem}>
                     <Link class="nav-link" to="/artwebsite/contact">
                         Contact
-                    </Link>s
+                    </Link>
                 </Typography>
                 <CustomBtn txt="PayPal"/>
             </Toolbar>
