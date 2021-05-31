@@ -37,9 +37,9 @@ function App() {
       <Router>
       <NavBar/>
         <Switch>
-          <Route path="/" exact component={() => <Home />} />
-          <Route path="/about" exact component={() => <About />} />
-          <Route path="/contact" exact component={() => <Contact />} />
+          <Route path="/artwebsite/" exact component={() => <Home />} />
+          <Route path="/artwebsite/about" exact component={() => <About />} />
+          <Route path="/artwebsite/contact" exact component={() => <Contact />} />
         </Switch>
       </Router>
       </ThemeProvider>

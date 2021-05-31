@@ -45,19 +45,19 @@ function NavBar() {
                 <img src={logo} className={classes.logo}/> 
                 <img src={logoMobile} className={classes.logoMobile}/> 
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link class="nav-link" to="/">
+                    <Link class="nav-link" to="/artwebsite">
                         Home
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link class="nav-link" to="/about">
+                    <Link class="nav-link" to="/artwebsite/about">
                         About
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link class="nav-link" to="/contact">
+                    <Link class="nav-link" to="/artwebsite/contact">
                         Contact
-                    </Link>
+                    </Link>s
                 </Typography>
                 <CustomBtn txt="PayPal"/>
             </Toolbar>
