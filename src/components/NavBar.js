@@ -1,7 +1,7 @@
 import React from 'react'
 import CustomBtn from './CustomBtn'
-import logo from '../logo.svg'
-import logoMobile from '../logoMobile.svg'
+import logo from '../image0.jpeg'
+import logoMobile from '../image0.jpeg'
 import {Toolbar, Typography} from '@material-ui/core'
 import { Link, withRouter } from "react-router-dom";
 import {makeStyles} from "@material-ui/core/styles"; 
@@ -16,14 +16,14 @@ const styles = makeStyles({
     },
     logo: {
         width: "15%", 
-        ['@media (max-width:780px)']: { 
+        ['@media (max-width:400px)']: { 
            display: "none"
            }
     },
     logoMobile:{
         width: "100%", 
         display: "none", 
-        ['@media (max-width:780px)']: { 
+        ['@media (max-width:400px)']: { 
             display: "inline-block"
             }
     },
