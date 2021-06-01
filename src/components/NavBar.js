@@ -5,25 +5,26 @@ import logoMobile from '../image0.jpeg'
 import {Toolbar, Typography} from '@material-ui/core'
 import { Link, withRouter } from "react-router-dom";
 import {makeStyles} from "@material-ui/core/styles"; 
+import './NavBar.css';
 
 const styles = makeStyles({
     bar:{
-        paddingTop: "1.15rem",
-        backgroundColor: "#fff",
+        paddingTop: "0rem",
+        backgroundColor: "#4B3B47",
         ['@media (max-width:780px)']: { 
            flexDirection: "column"
           }
     },
     logo: {
-        width: "15%", 
-        ['@media (max-width:400px)']: { 
+        width: "7%", 
+        ['@media (max-width:780px)']: { 
            display: "none"
            }
     },
     logoMobile:{
-        width: "100%", 
+        width: "7%", 
         display: "none", 
-        ['@media (max-width:400px)']: { 
+        ['@media (max-width:780px)']: { 
             display: "inline-block"
             }
     },
@@ -31,31 +32,32 @@ const styles = makeStyles({
         cursor: "pointer", 
         flexGrow: 1,
         "&:hover": {
-            color:  "#4f25c8"
+            color:  "#CFD2B2"
         },
         ['@media (max-width:780px)']: { 
-            paddingBottom: "1rem"    }
+            paddingBottom: "0rem"    }
     }
 })
+
 
 function NavBar() {
     const classes = styles()
     return (
-            <Toolbar position="fixed" color="rgba(0, 0, 0, 0.87)" className={classes.bar}>   
+            <Toolbar position="fixed" color="rgba(75, 59, 71, 0.87)" className={classes.bar}>   
                 <img src={logo} className={classes.logo}/> 
                 <img src={logoMobile} className={classes.logoMobile}/> 
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link class="nav-link" to="/artwebsite">
+                    <Link to="/artwebsite">
                         Home
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link class="nav-link" to="/artwebsite/about">
+                    <Link to="/artwebsite/about">
                         About
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link class="nav-link" to="/artwebsite/contact">
+                    <Link to="/artwebsite/contact">
                         Contact
                     </Link>
                 </Typography>
