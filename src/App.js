@@ -3,7 +3,7 @@ import NavBar from './components/NavBar'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import './App.css';
-import { Home, About, Contact } from "./components";
+import { Home, Awards, Courses, Gallery, Registration, Contact} from "./components";
 
 const theme = createMuiTheme({
   palette: {
@@ -38,7 +38,10 @@ function App() {
       <NavBar/>
         <Switch>
           <Route path="/artwebsite/" exact component={() => <Home />} />
-          <Route path="/artwebsite/about" exact component={() => <About />} />
+          <Route path="/artwebsite/awards" exact component={() => <Awards />} />
+          <Route path="/artwebsite/courses" exact component={() => <Courses />} />
+          <Route path="/artwebsite/gallery" exact component={() => <Gallery />} />
+          <Route path="/artwebsite/registration" exact component={() => <Registration />} />
           <Route path="/artwebsite/contact" exact component={() => <Contact />} />
         </Switch>
       </Router>

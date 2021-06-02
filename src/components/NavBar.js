@@ -52,8 +52,23 @@ function NavBar() {
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link to="/artwebsite/about">
-                        About
+                    <Link to="/artwebsite/awards">
+                        Awards and Achievements
+                    </Link>
+                </Typography>
+                <Typography variant="h6" className={classes.menuItem}>
+                    <Link to="/artwebsite/courses">
+                        Courses
+                    </Link>
+                </Typography>
+                <Typography variant="h6" className={classes.menuItem}>
+                    <Link to="/artwebsite/gallery">
+                        Gallery
+                    </Link>
+                </Typography>
+                <Typography variant="h6" className={classes.menuItem}>
+                    <Link to="/artwebsite/registration">
+                       Registration Forms
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
