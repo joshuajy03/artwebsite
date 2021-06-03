@@ -1,27 +1,12 @@
 import React from "react";
+import RGF from 'react-google-forms';
+
 
 function Registration() {
   return (
     <div className="registration">
       <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Registration</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
+        <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfIDFrSKjvbPmLqEb78XFzhEo5Q9IX1lnLdWa-lHi_0-Yq2rQ/viewform?embedded=true' width="640" height="10500" frameborder='0' marginheight='0' marginwidth='0'>Loading...</iframe>.
       </div>
     </div>
   );
