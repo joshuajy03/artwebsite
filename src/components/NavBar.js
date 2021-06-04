@@ -10,7 +10,7 @@ import './NavBar.css';
 const styles = makeStyles({
     bar:{
         paddingTop: "0rem",
-        backgroundColor: "#4B3B47",
+        backgroundColor: "#22223B",
         ['@media (max-width:780px)']: { 
            flexDirection: "column"
           }

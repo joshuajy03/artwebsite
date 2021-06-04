@@ -1,4 +1,5 @@
 import React from "react";
+import './WebPage.css';
 
 function About() {
   return (
