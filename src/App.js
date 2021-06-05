@@ -9,34 +9,13 @@ import { Home, Awards, Courses, Gallery, Registration, Contact } from "./compone
 
 const displayDesktop = () => {
   return (
-    <Router>
-      <NavBar />
-      <Switch>
-        <Route path="/artwebsite/" exact component={() => <Home />} />
-        <Route path="/artwebsite/awards" exact component={() => <Awards />} />
-        <Route path="/artwebsite/courses" exact component={() => <Courses />} />
-        <Route path="/artwebsite/gallery" exact component={() => <Gallery />} />
-        <Route path="/artwebsite/registration" exact component={() => <Registration />} />
-        <Route path="/artwebsite/contact" exact component={() => <Contact />} />
-      </Switch>
-    </Router>
-
+    <NavBar />
   );
 };
 
 const displayMobile = () => {
   return (
-    <Router>
-      <NavBarMobile />
-      <Switch>
-        <Route path="/artwebsite/" exact component={() => <Home />} />
-        <Route path="/artwebsite/awards" exact component={() => <Awards />} />
-        <Route path="/artwebsite/courses" exact component={() => <Courses />} />
-        <Route path="/artwebsite/gallery" exact component={() => <Gallery />} />
-        <Route path="/artwebsite/registration" exact component={() => <Registration />} />
-        <Route path="/artwebsite/contact" exact component={() => <Contact />} />
-      </Switch>
-    </Router>
+    <NavBarMobile />
 
   );
 };
@@ -94,7 +73,18 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        {mobileView ? displayMobile() : displayDesktop()}
+        <Router>
+          {mobileView ? displayMobile() : displayDesktop()}
+          <Switch>
+            <Route path="/artwebsite/" exact component={() => <Home />} />
+            <Route path="/artwebsite/awards" exact component={() => <Awards />} />
+            <Route path="/artwebsite/courses" exact component={() => <Courses />} />
+            <Route path="/artwebsite/gallery" exact component={() => <Gallery />} />
+            <Route path="/artwebsite/registration" exact component={() => <Registration />} />
+            <Route path="/artwebsite/contact" exact component={() => <Contact />} />
+          </Switch>
+        </Router>
+
       </ThemeProvider>
     </div>
   );
