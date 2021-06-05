@@ -11,22 +11,9 @@ const styles = makeStyles({
     bar:{
         paddingTop: "0rem",
         backgroundColor: "#22223B",
-        ['@media (max-width:780px)']: { 
-           flexDirection: "column"
-          }
     },
     logo: {
-        width: "7%", 
-        ['@media (max-width:780px)']: { 
-           display: "none"
-           }
-    },
-    logoMobile:{
-        width: "7%", 
-        display: "none", 
-        ['@media (max-width:780px)']: { 
-            display: "inline-block"
-            }
+        width: "50px",
     },
     menuItem: {
         cursor: "pointer", 
@@ -34,8 +21,6 @@ const styles = makeStyles({
         "&:hover": {
             color:  "#CFD2B2"
         },
-        ['@media (max-width:780px)']: { 
-            paddingBottom: "0rem"    }
     }
 })
 
@@ -46,7 +31,6 @@ function NavBar() {
         <AppBar position="sticky">
             <Toolbar color="rgba(75, 59, 71, 0.87)" className={classes.bar}> 
                 <img src={logo} className={classes.logo}/> 
-                <img src={logoMobile} className={classes.logoMobile}/> 
                 <Typography variant="h6" className={classes.menuItem}>
                     <Link to="/artwebsite">
                         Home
@@ -69,7 +53,7 @@ function NavBar() {
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
                     <Link to="/artwebsite/registration">
-                       Registration Forms
+                       Registration Form
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
