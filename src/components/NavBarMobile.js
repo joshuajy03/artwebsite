@@ -2,7 +2,7 @@ import React from 'react'
 import clsx from 'clsx';
 import logo from '../image0.jpeg'
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { Toolbar, Typography, AppBar, IconButton, Drawer, Divider } from '@material-ui/core'
+import { Toolbar, Typography, AppBar, IconButton, Drawer, ClickAwayListener } from '@material-ui/core'
 import { Link, withRouter } from "react-router-dom";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import './NavBar.css';
@@ -51,7 +51,7 @@ const styles = makeStyles((theme) => ({
     padding: theme.spacing(0, 1),
     // necessary for content to be below app bar
     ...theme.mixins.toolbar,
-    justifyContent: 'flex-end',
+    justifyContent: 'flex-start',
   },
   content: {
     flexGrow: 1,
@@ -83,7 +83,10 @@ const styles = makeStyles((theme) => ({
     },
   },
   logo: {
-    width: "50px",
+    height: "50px",
+  },
+  title: {
+    flexGrow: 1,
   },
   menuItem: {
     cursor: "pointer",
@@ -116,23 +119,28 @@ function NavBarMobile() {
 
   return (
     <React.Fragment>
+
       <AppBar position="sticky">
         <Toolbar color="rgba(75, 59, 71, 0.87)" className={classes.bar}>
-          <IconButton edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            edge="start"
-            className={clsx(classes.menuButton, open && classes.hide)}>
-            <MenuIcon />
-          </IconButton>
           <img src={logo} className={classes.logo} />
+          <Typography variant="h6" noWrap className={classes.title}></Typography>
+          <ClickAwayListener onClickAway={handleDrawerClose}>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              onClick={handleDrawerOpen}
+              edge="end"
+              className={clsx(open && classes.hide)}>
+              <MenuIcon />
+            </IconButton>
+          </ClickAwayListener>
         </Toolbar>
       </AppBar>
+
       <Drawer
         className={classes.drawer}
         variant="persistent"
-        anchor="left"
+        anchor="right"
         open={open}
         classes={{
           paper: classes.drawerPaper,
@@ -140,7 +148,7 @@ function NavBarMobile() {
       >
         <div className={classes.drawerHeader}>
           <IconButton onClick={handleDrawerClose}>
-            {theme.direction === 'ltr' ? <ChevronLeftIcon style={{ color: '#fff' }} /> : <ChevronRightIcon style={{ color: '#fff' }} />}
+            {theme.direction === 'rtl' ? <ChevronLeftIcon style={{ color: '#fff' }} /> : <ChevronRightIcon style={{ color: '#fff' }} />}
           </IconButton>
         </div>
         <React.Fragment>
@@ -176,6 +184,7 @@ function NavBarMobile() {
           </Typography>
         </React.Fragment>
       </Drawer>
+
     </React.Fragment>
   )
 }
