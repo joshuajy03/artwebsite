@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/artwebsite/static/css/main.51a3ec0c.chunk.css",
+    "main.css": "/artwebsite/static/css/main.00a2ed94.chunk.css",
     "main.js": "/artwebsite/static/js/main.7b528a52.chunk.js",
     "main.js.map": "/artwebsite/static/js/main.7b528a52.chunk.js.map",
     "runtime-main.js": "/artwebsite/static/js/runtime-main.fbb04526.js",
@@ -10,7 +10,7 @@
     "static/js/3.df0c1387.chunk.js": "/artwebsite/static/js/3.df0c1387.chunk.js",
     "static/js/3.df0c1387.chunk.js.map": "/artwebsite/static/js/3.df0c1387.chunk.js.map",
     "index.html": "/artwebsite/index.html",
-    "static/css/main.51a3ec0c.chunk.css.map": "/artwebsite/static/css/main.51a3ec0c.chunk.css.map",
+    "static/css/main.00a2ed94.chunk.css.map": "/artwebsite/static/css/main.00a2ed94.chunk.css.map",
     "static/js/2.39b4b9c6.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.39b4b9c6.chunk.js.LICENSE.txt",
     "static/media/image0.8553fbb5.jpeg": "/artwebsite/static/media/image0.8553fbb5.jpeg",
     "static/media/logo.7f799ddd.svg": "/artwebsite/static/media/logo.7f799ddd.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.fbb04526.js",
     "static/js/2.39b4b9c6.chunk.js",
-    "static/css/main.51a3ec0c.chunk.css",
+    "static/css/main.00a2ed94.chunk.css",
     "static/js/main.7b528a52.chunk.js"
   ]
 }
