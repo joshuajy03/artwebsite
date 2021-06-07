@@ -88,6 +88,8 @@ const styles = makeStyles((theme) => ({
   menuItem: {
     cursor: "pointer",
     backgroundColor: "#22223B",
+    textAlign: "left",
+    paddingLeft: "16px",
     flexGrow: 1,
     "&:hover": {
       color: "#CFD2B2"

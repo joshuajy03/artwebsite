@@ -4,7 +4,7 @@ import './WebPage.css';
 function Home() {
   return (
     <div className="home">
-      <div class="container">
+      <div class="container pt-3 pb-3 my-3">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img

@@ -4,7 +4,7 @@ import './WebPage.css';
 function Courses() {
   return (
     <div className="courses">
-      <div class="container pt-3 pb-3 my-3">
+      <div class="container pt-3 pb-3 my-3" >
         <div style={{ textAlign: "left" }} class="col-lg-6">
           <h2>Courses</h2>
           <p>
