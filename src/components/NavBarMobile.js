@@ -111,20 +111,21 @@ function NavBarMobile() {
 
   const handleDrawerOpen = () => {
     setOpen(true);
+    console.log("open");
   };
 
   const handleDrawerClose = () => {
     setOpen(false);
+    console.log("close");
   };
 
   return (
     <React.Fragment>
-
       <AppBar position="sticky">
         <Toolbar color="rgba(75, 59, 71, 0.87)" className={classes.bar}>
           <img src={logo} className={classes.logo} />
           <Typography variant="h6" noWrap className={classes.title}></Typography>
-          <ClickAwayListener onClickAway={handleDrawerClose}>
+          <ClickAwayListener onClickAway={handleDrawerClose} touchEvent={false} >
             <IconButton
               color="inherit"
               aria-label="open drawer"
