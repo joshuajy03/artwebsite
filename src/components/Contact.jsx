@@ -11,7 +11,8 @@ function Contact() {
             Phone: 408-384-1101 <br />
             Email: yyanni78@hotmail.com <br />
             WeChat ID:  adambecky <br />
-            Studio Address: Newsom AVE Cupertino 95014
+            Studio Address: Newsom AVE Cupertino 95014 <br />
+            PayPal: doublesheepcn@hotmail.com
           </p>
         </div>
       </div>

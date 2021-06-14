@@ -30,7 +30,9 @@ function NavBar() {
     return (
         <AppBar position="sticky">
             <Toolbar color="rgba(75, 59, 71, 0.87)" className={classes.bar}> 
-                <img src={logo} className={classes.logo}/> 
+                <Link to="/artwebsite">
+                    <img src={logo} className={classes.logo}/> 
+                </Link>
                 <Typography variant="h6" className={classes.menuItem}>
                     <Link to="/artwebsite">
                         Home
@@ -43,12 +45,7 @@ function NavBar() {
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
                     <Link to="/artwebsite/courses">
-                        Courses
-                    </Link>
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                    <Link to="/artwebsite/gallery">
-                        Gallery
+                        Courses and Gallery
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
@@ -58,10 +55,9 @@ function NavBar() {
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
                     <Link to="/artwebsite/contact">
-                        Contact
+                        Contact and PayPal
                     </Link>
                 </Typography>
-                <CustomBtn txt="PayPal"/>
             </Toolbar>
         </AppBar>
     )

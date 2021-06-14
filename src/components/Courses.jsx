@@ -8,20 +8,20 @@ function Courses() {
         <div style={{ textAlign: "left" }} class="col-lg-6">
           <h2>Courses</h2>
           <p>
-            Sketch <br />
+             Sketch <br />
               Charcoal <br />
               Color Pencil <br />
-              Quick Sketch <br />
               Acrylic <br />
               Water Color <br />
               Oil Painting <br />
-              Decorative Painting <br />
+              Color Composition <br />
+              Black and White Composition <br />
               Illustration Design <br />
-              Comic Cartoon <br />
+              Comic Design <br />
+              Proposition Creation <br />
               Graphic Design <br />
-              Fashion Design <br />
-              Industrial Design <br />
-              Architectural Drawing <br />
+              Industrial Product Design <br />
+              Architectural Design <br />
               Portfolio <br />
           </p>
         </div>
