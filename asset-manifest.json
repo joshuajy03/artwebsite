@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/artwebsite/static/css/main.71027d42.chunk.css",
-    "main.js": "/artwebsite/static/js/main.7ac8039e.chunk.js",
-    "main.js.map": "/artwebsite/static/js/main.7ac8039e.chunk.js.map",
-    "runtime-main.js": "/artwebsite/static/js/runtime-main.fbb04526.js",
-    "runtime-main.js.map": "/artwebsite/static/js/runtime-main.fbb04526.js.map",
-    "static/js/2.88896938.chunk.js": "/artwebsite/static/js/2.88896938.chunk.js",
-    "static/js/2.88896938.chunk.js.map": "/artwebsite/static/js/2.88896938.chunk.js.map",
-    "static/js/3.df0c1387.chunk.js": "/artwebsite/static/js/3.df0c1387.chunk.js",
-    "static/js/3.df0c1387.chunk.js.map": "/artwebsite/static/js/3.df0c1387.chunk.js.map",
+    "main.css": "/artwebsite/static/css/main.a59c7212.chunk.css",
+    "main.js": "/artwebsite/static/js/main.a69d6b0f.chunk.js",
+    "main.js.map": "/artwebsite/static/js/main.a69d6b0f.chunk.js.map",
+    "runtime-main.js": "/artwebsite/static/js/runtime-main.54ae4e8b.js",
+    "runtime-main.js.map": "/artwebsite/static/js/runtime-main.54ae4e8b.js.map",
+    "static/js/2.ef9a8245.chunk.js": "/artwebsite/static/js/2.ef9a8245.chunk.js",
+    "static/js/2.ef9a8245.chunk.js.map": "/artwebsite/static/js/2.ef9a8245.chunk.js.map",
+    "static/js/3.c21d0f90.chunk.js": "/artwebsite/static/js/3.c21d0f90.chunk.js",
+    "static/js/3.c21d0f90.chunk.js.map": "/artwebsite/static/js/3.c21d0f90.chunk.js.map",
     "index.html": "/artwebsite/index.html",
-    "static/css/main.71027d42.chunk.css.map": "/artwebsite/static/css/main.71027d42.chunk.css.map",
-    "static/js/2.88896938.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.88896938.chunk.js.LICENSE.txt",
+    "static/css/main.a59c7212.chunk.css.map": "/artwebsite/static/css/main.a59c7212.chunk.css.map",
+    "static/js/2.ef9a8245.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.ef9a8245.chunk.js.LICENSE.txt",
     "static/media/image0.8553fbb5.jpeg": "/artwebsite/static/media/image0.8553fbb5.jpeg",
-    "static/media/logo.7f799ddd.svg": "/artwebsite/static/media/logo.7f799ddd.svg"
+    "static/media/logo.5a93ef2f.svg": "/artwebsite/static/media/logo.5a93ef2f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fbb04526.js",
-    "static/js/2.88896938.chunk.js",
-    "static/css/main.71027d42.chunk.css",
-    "static/js/main.7ac8039e.chunk.js"
+    "static/js/runtime-main.54ae4e8b.js",
+    "static/js/2.ef9a8245.chunk.js",
+    "static/css/main.a59c7212.chunk.css",
+    "static/js/main.a69d6b0f.chunk.js"
   ]
 }
