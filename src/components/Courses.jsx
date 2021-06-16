@@ -24,9 +24,8 @@ import PortfolioImgs from "./PortfolioImgs";
 
 function Courses() {
   return (
-    <React.Fragment>
+    <div class="container pt-3 pb-3 my-3">
       <Container>
-
         <Row>
           <Col md={3}>
             <h2>Courses</h2>
@@ -142,7 +141,7 @@ function Courses() {
 
       </Container>
 
-    </React.Fragment>
+    </div>
 
   );
 }
