@@ -39,10 +39,11 @@ const styles = makeStyles((theme) => ({
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
-    backgroundColor: '#22223B'
+    background: '#22223B'
   },
   drawerPaper: {
     width: drawerWidth,
+    backgroundColor: '#22223B',
   },
   drawerHeader: {
     display: 'flex',
@@ -70,6 +71,10 @@ const styles = makeStyles((theme) => ({
     marginLeft: 0,
   },
 
+  drawerContent:{
+    backgroundColor: '#22223B',
+  },
+
   drawerNav: {
     backgroundColor: '#22223B',
     alignItems: 'left',
@@ -93,7 +98,7 @@ const styles = makeStyles((theme) => ({
     backgroundColor: "#22223B",
     textAlign: "left",
     paddingLeft: "16px",
-    flexGrow: 1,
+    marginBottom: 16,
     "&:hover": {
       color: "#CFD2B2"
     },
@@ -154,7 +159,6 @@ function NavBarMobile() {
             {theme.direction === 'rtl' ? <ChevronLeftIcon style={{ color: '#fff' }} /> : <ChevronRightIcon style={{ color: '#fff' }} />}
           </IconButton>
         </div>
-        <React.Fragment>
           <Typography variant="h6" className={classes.menuItem}>
             <Link to="/artwebsite">
               Home
@@ -180,7 +184,6 @@ function NavBarMobile() {
               Contact and PayPal
             </Link>
           </Typography>
-        </React.Fragment>
       </Drawer>
 
     </React.Fragment>

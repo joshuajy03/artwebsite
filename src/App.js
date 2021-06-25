@@ -57,7 +57,7 @@ function App() {
 
   useEffect(() => {
     const setResponsiveness = () => {
-      return window.innerWidth < 900
+      return window.innerWidth < 1000
         ? setState((prevState) => ({ ...prevState, mobileView: true }))
         : setState((prevState) => ({ ...prevState, mobileView: false }));
     };
