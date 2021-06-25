@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import { Home, Awards, Courses, Gallery, Registration, Contact, Footer } from "./components";
+import { Home, Awards, Courses, Gallery, Registration, Contact } from "./components";
 import { ClickAwayListener } from '@material-ui/core';
 
 const displayDesktop = () => {
@@ -85,7 +85,7 @@ function App() {
             <Route path="/artwebsite/contact" exact component={() => <Contact />} />
           </Switch>
         </Router>
-        <Footer />
+
       </ThemeProvider>
     </div>
   );
