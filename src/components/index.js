@@ -5,3 +5,4 @@ export { default as Awards } from "./Awards";
 export { default as  Registration} from "./Registration";
 export { default as Gallery } from "./Gallery";
 export { default as Courses } from "./Courses";
+export { default as Footer } from "./Footer";
