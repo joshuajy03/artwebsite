@@ -21,9 +21,11 @@ import GraphicDesignImgs from "./GraphicDesignImgs";
 import IndustrialProductDesignImgs from "./IndustrialProductDesignImgs";
 import ArchitecturalDesignImgs from "./ArchitecturalDesignImgs";
 import PortfolioImgs from "./PortfolioImgs";
+import Footer from "./Footer";
 
 function Courses() {
   return (
+    <React.Fragment>
     <div class="container pt-3 pb-3 my-3">
       <Container>
         <Row>
@@ -140,9 +142,11 @@ function Courses() {
 
 
       </Container>
-
+      
     </div>
-
+    </React.Fragment>
+    
+    
   );
 }
 

@@ -8,6 +8,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import { Home, Awards, Courses, Gallery, Registration, Contact } from "./components";
 import { ClickAwayListener } from '@material-ui/core';
+import Footer from './components/Footer';
 
 const displayDesktop = () => {
   return (
@@ -74,6 +75,8 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
+        <div class = "content-wrap">
+
         <Router>
           {mobileView ? displayMobile() : displayDesktop()}
           <Switch>
@@ -85,7 +88,8 @@ function App() {
             <Route path="/artwebsite/contact" exact component={() => <Contact />} />
           </Switch>
         </Router>
-
+        </div>
+        <Footer />
       </ThemeProvider>
     </div>
   );

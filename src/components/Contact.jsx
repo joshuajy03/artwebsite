@@ -1,5 +1,6 @@
 import React from "react";
 import './WebPage.css';
+import Footer from "./Footer";
 
 function Contact() {
   return (

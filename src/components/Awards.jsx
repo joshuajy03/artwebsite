@@ -1,6 +1,7 @@
 import { List } from "@material-ui/core";
 import React from "react";
 import './WebPage.css';
+import Footer from "./Footer";
 
 function Awards() {
   return (
