@@ -6,7 +6,10 @@ import "./Footer.css"
 
 function Footer() {
     return (
-        <div className="main-footer">
+        <React.Fragment>
+        <div className="space">
+        </div>
+        <footer className="main-footer">
             <div className="footer-container">
                 <div className="scroll-button">
                     <ScrollToTop />
@@ -16,7 +19,8 @@ function Footer() {
                     Stuff for later.
                 </div>
             </div>
-        </div>
+        </footer>
+        </React.Fragment>
     );
 }
 export default Footer;
