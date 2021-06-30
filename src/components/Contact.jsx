@@ -13,7 +13,7 @@ function Contact() {
             Email: yyanni78@hotmail.com <br />
             WeChat ID:  adambecky <br />
             Studio Address: Newsom AVE Cupertino 95014 <br />
-            PayPal: doublesheepcn@hotmail.com
+            PayPal: Please Contact Ms. Ying
           </p>
         </div>
         <iframe
