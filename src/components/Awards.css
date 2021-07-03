@@ -1,0 +1,10 @@
+.resize-img{
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+.resize-collection{
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+}
