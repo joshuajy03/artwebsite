@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/artwebsite/static/css/main.edaf7b7a.chunk.css",
-    "main.js": "/artwebsite/static/js/main.639adfd3.chunk.js",
-    "main.js.map": "/artwebsite/static/js/main.639adfd3.chunk.js.map",
+    "main.js": "/artwebsite/static/js/main.9b223858.chunk.js",
+    "main.js.map": "/artwebsite/static/js/main.9b223858.chunk.js.map",
     "runtime-main.js": "/artwebsite/static/js/runtime-main.e327ec94.js",
     "runtime-main.js.map": "/artwebsite/static/js/runtime-main.e327ec94.js.map",
-    "static/js/2.40c9b383.chunk.js": "/artwebsite/static/js/2.40c9b383.chunk.js",
-    "static/js/2.40c9b383.chunk.js.map": "/artwebsite/static/js/2.40c9b383.chunk.js.map",
+    "static/js/2.aaf0a7a1.chunk.js": "/artwebsite/static/js/2.aaf0a7a1.chunk.js",
+    "static/js/2.aaf0a7a1.chunk.js.map": "/artwebsite/static/js/2.aaf0a7a1.chunk.js.map",
     "static/js/3.56af5eab.chunk.js": "/artwebsite/static/js/3.56af5eab.chunk.js",
     "static/js/3.56af5eab.chunk.js.map": "/artwebsite/static/js/3.56af5eab.chunk.js.map",
     "index.html": "/artwebsite/index.html",
     "static/css/main.edaf7b7a.chunk.css.map": "/artwebsite/static/css/main.edaf7b7a.chunk.css.map",
-    "static/js/2.40c9b383.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.40c9b383.chunk.js.LICENSE.txt",
+    "static/js/2.aaf0a7a1.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.aaf0a7a1.chunk.js.LICENSE.txt",
     "static/media/1.22dd013f.jpg": "/artwebsite/static/media/1.22dd013f.jpg",
     "static/media/1.2b558d2d.jpg": "/artwebsite/static/media/1.2b558d2d.jpg",
     "static/media/1.2d47b048.jpg": "/artwebsite/static/media/1.2d47b048.jpg",
@@ -260,8 +260,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e327ec94.js",
-    "static/js/2.40c9b383.chunk.js",
+    "static/js/2.aaf0a7a1.chunk.js",
     "static/css/main.edaf7b7a.chunk.css",
-    "static/js/main.639adfd3.chunk.js"
+    "static/js/main.9b223858.chunk.js"
   ]
 }
