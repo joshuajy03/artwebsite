@@ -1,6 +1,6 @@
 import React from 'react'
 import CustomBtn from './CustomBtn'
-import logo from '../Dream Art/logos/whitelogolong.jpg'
+import logo from '../Dream Art/logos/bluelogolong.jpg'
 import logoMobile from '../image0.jpeg'
 import { Toolbar, Typography, AppBar } from '@material-ui/core'
 import { Link, withRouter } from "react-router-dom";
@@ -10,7 +10,7 @@ import './NavBar.css';
 const styles = makeStyles({
     bar: {
         paddingTop: "0rem",
-        backgroundColor: "#fff",
+        backgroundColor: "#22223B",
     },
     logo: {
         width: "400px",

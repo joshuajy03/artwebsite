@@ -1,6 +1,6 @@
 import React from 'react'
 import clsx from 'clsx';
-import logo from '../image0.jpeg'
+import logo from '../Dream Art/logos/bluelogoshort.jpg'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { Toolbar, Typography, AppBar, IconButton, Drawer, ClickAwayListener } from '@material-ui/core'
 import { Link, withRouter } from "react-router-dom";
@@ -31,7 +31,7 @@ const styles = makeStyles((theme) => ({
     }),
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    color: "#C9ADA7",
   },
   hide: {
     display: 'none',
@@ -134,11 +134,11 @@ function NavBarMobile() {
           <Typography variant="h6" noWrap className={classes.title}></Typography>
           <ClickAwayListener onClickAway={handleDrawerClose} touchEvent={false} >
             <IconButton
-              color="inherit"
+              color="default"
               aria-label="open drawer"
               onClick={handleDrawerOpen}
               edge="end"
-              className={clsx(open && classes.hide)}>
+              className={clsx(open && classes.hide), classes.menuButton}>
               <MenuIcon />
             </IconButton>
           </ClickAwayListener>
@@ -156,7 +156,7 @@ function NavBarMobile() {
       >
         <div className={classes.drawerHeader}>
           <IconButton onClick={handleDrawerClose}>
-            {theme.direction === 'rtl' ? <ChevronLeftIcon style={{ color: '#fff' }} /> : <ChevronRightIcon style={{ color: '#fff' }} />}
+            {theme.direction === 'rtl' ? <ChevronLeftIcon style={{ color: "#C9ADA7"}} /> : <ChevronRightIcon style={{ color: "#C9ADA7" }} />}
           </IconButton>
         </div>
           <Typography variant="h6" className={classes.menuItem}>

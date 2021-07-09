@@ -26,7 +26,7 @@ import Footer from "./Footer";
 function Courses() {
   return (
     <React.Fragment>
-    <div class="container pt-3 pb-5 mb-5 mt-3">
+    <div class="container pt-3 pb-3 mb-3 mt-3">
       <Container>
         <Row>
           <Col md={3}>
