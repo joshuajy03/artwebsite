@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/artwebsite/static/css/main.0c4685a2.chunk.css",
-    "main.js": "/artwebsite/static/js/main.7462b2b7.chunk.js",
-    "main.js.map": "/artwebsite/static/js/main.7462b2b7.chunk.js.map",
-    "runtime-main.js": "/artwebsite/static/js/runtime-main.33301f22.js",
-    "runtime-main.js.map": "/artwebsite/static/js/runtime-main.33301f22.js.map",
-    "static/js/2.eb38829a.chunk.js": "/artwebsite/static/js/2.eb38829a.chunk.js",
-    "static/js/2.eb38829a.chunk.js.map": "/artwebsite/static/js/2.eb38829a.chunk.js.map",
-    "static/js/3.fb83518a.chunk.js": "/artwebsite/static/js/3.fb83518a.chunk.js",
-    "static/js/3.fb83518a.chunk.js.map": "/artwebsite/static/js/3.fb83518a.chunk.js.map",
+    "main.js": "/artwebsite/static/js/main.cf9f612f.chunk.js",
+    "main.js.map": "/artwebsite/static/js/main.cf9f612f.chunk.js.map",
+    "runtime-main.js": "/artwebsite/static/js/runtime-main.88e9f8a9.js",
+    "runtime-main.js.map": "/artwebsite/static/js/runtime-main.88e9f8a9.js.map",
+    "static/js/2.cffe5de0.chunk.js": "/artwebsite/static/js/2.cffe5de0.chunk.js",
+    "static/js/2.cffe5de0.chunk.js.map": "/artwebsite/static/js/2.cffe5de0.chunk.js.map",
+    "static/js/3.e7b646fd.chunk.js": "/artwebsite/static/js/3.e7b646fd.chunk.js",
+    "static/js/3.e7b646fd.chunk.js.map": "/artwebsite/static/js/3.e7b646fd.chunk.js.map",
     "index.html": "/artwebsite/index.html",
     "static/css/main.0c4685a2.chunk.css.map": "/artwebsite/static/css/main.0c4685a2.chunk.css.map",
-    "static/js/2.eb38829a.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.eb38829a.chunk.js.LICENSE.txt",
+    "static/js/2.cffe5de0.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.cffe5de0.chunk.js.LICENSE.txt",
     "static/media/1.0640087b.jpg": "/artwebsite/static/media/1.0640087b.jpg",
     "static/media/1.22dd013f.jpg": "/artwebsite/static/media/1.22dd013f.jpg",
     "static/media/1.2b558d2d.jpg": "/artwebsite/static/media/1.2b558d2d.jpg",
@@ -302,9 +302,9 @@
     "static/media/poster.0f82c9a7.jpg": "/artwebsite/static/media/poster.0f82c9a7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.33301f22.js",
-    "static/js/2.eb38829a.chunk.js",
+    "static/js/runtime-main.88e9f8a9.js",
+    "static/js/2.cffe5de0.chunk.js",
     "static/css/main.0c4685a2.chunk.css",
-    "static/js/main.7462b2b7.chunk.js"
+    "static/js/main.cf9f612f.chunk.js"
   ]
 }
