@@ -18,3 +18,11 @@ p {
 h2 {
     color: #22223B;
 }
+
+.course-link {
+    color:#22223B;
+}
+
+.course-link:hover {
+    color: black;
+  }
