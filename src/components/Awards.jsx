@@ -52,7 +52,7 @@ import img2016California3 from '../Dream Art/Awards/2016  California School Empl
 function Awards() {
   return (
     <div className="awards">
-      <div class="container pt-3 pb-5 mb-5 mt-3">
+      <div class="container pt-3 pb-3 mb-3 mt-3">
         <div style={{ textAlign: "left" }} class="col-lg-6">
           <h2>Awards</h2>
           <p>
