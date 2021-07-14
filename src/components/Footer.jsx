@@ -16,7 +16,7 @@ function Footer() {
                 </div>
                 <hr />
                 <div className="row-info">
-                    Stuff for later.
+                    &copy;{new Date().getFullYear()} Dream Art Studios | All rights reserved
                 </div>
             </div>
         </footer>

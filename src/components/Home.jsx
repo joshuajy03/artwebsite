@@ -2,6 +2,7 @@ import React from "react";
 import './WebPage.css';
 import Poster from "../Dream Art/poster.jpg"
 import Footer from "./Footer";
+import HomeSlide from "./HomeSlide.jsx";
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
             </p>
           </div>
         </div>
+        <HomeSlide />
       </div>
     </div>
   );
