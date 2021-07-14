@@ -15,13 +15,16 @@ function Home() {
               alt=""
             />
           </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Home</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+          <div class="col-lg-4">
+            <h1 class="font-weight-light" style={{textAlign: "left"}}>Yi Ying</h1>
+            <div class="my-3">
+            </div>
+            <p style={{textAlign: "left"}}>
+              I graduated from China Academy of Art and have been engaged in design work for many years.
+              I have accumulated solid painting skills over the years. Combined with pioneering and innovative computer painting and design capabilities, I strive for excellence in both tradition and modernity.
+              I always persist in exploring and surpassing myself in the professional field of art.
+              In addition to artistic creation and design, as the founder of Dream Art Studio I am also committed to the art teaching of young people and children, cultivating children’s interest in painting.
+              I lead the children to experience art and carry out systematic basic skills training step by step, improving children's observation, imagination, creativity, and design abilities in all aspects, experiencing different painting forms and familiarizing themselves with various painting materials. I not only expand their horizons and improve their aesthetic ability but also help students gradually discover and establish their own painting language. My students have participated in various painting competitions and created high school students' portfolios, obtaining excellent results.
             </p>
           </div>
         </div>
