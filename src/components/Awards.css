@@ -8,3 +8,8 @@
     width: auto;
     object-fit: cover;
 }
+.resize-img-mobile{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
