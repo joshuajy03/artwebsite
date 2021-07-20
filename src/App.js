@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import NavBar from './components/NavBar'
 import handleDrawerClose from './components/NavBar'
 import NavBarMobile from './components/NavBarMobile'
-import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import './App.css';
 import React, { useState, useEffect } from 'react';
@@ -77,15 +78,15 @@ function App() {
       <ThemeProvider theme={theme}>
         <div class = "content-wrap">
 
-        <HashRouter>
+        <HashRouter basename="/">
           {mobileView ? displayMobile() : displayDesktop()}
           <Switch>
-            <Route path="/artwebsite/" exact component={() => <Home />} />
-            <Route path="/artwebsite/awards" exact component={() => <Awards />} />
-            <Route path="/artwebsite/courses" exact component={() => <Courses />} />
-            <Route path="/artwebsite/gallery" exact component={() => <Gallery />} />
-            <Route path="/artwebsite/registration" exact component={() => <Registration />} />
-            <Route path="/artwebsite/contact" exact component={() => <Contact />} />
+            <Route path="/" exact component={() => <Home />} />
+            <Route path="/awards" exact component={() => <Awards />} />
+            <Route path="/courses" exact component={() => <Courses />} />
+            <Route path="/gallery" exact component={() => <Gallery />} />
+            <Route path="/registration" exact component={() => <Registration />} />
+            <Route path="/contact" exact component={() => <Contact />} />
           </Switch>
         </HashRouter>
         </div>
