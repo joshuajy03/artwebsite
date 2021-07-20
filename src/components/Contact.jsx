@@ -17,7 +17,7 @@ function Contact() {
           </p>
         </div>
         <iframe
-          width="600"
+          width="90%"
           height="450"
           loading="lazy"
           allowfullscreen

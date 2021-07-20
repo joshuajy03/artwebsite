@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import NavBar from './components/NavBar'
 import handleDrawerClose from './components/NavBar'
 import NavBarMobile from './components/NavBarMobile'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import './App.css';
 import React, { useState, useEffect } from 'react';
@@ -77,7 +77,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <div class = "content-wrap">
 
-        <Router>
+        <HashRouter>
           {mobileView ? displayMobile() : displayDesktop()}
           <Switch>
             <Route path="/artwebsite/" exact component={() => <Home />} />
@@ -87,7 +87,7 @@ function App() {
             <Route path="/artwebsite/registration" exact component={() => <Registration />} />
             <Route path="/artwebsite/contact" exact component={() => <Contact />} />
           </Switch>
-        </Router>
+        </HashRouter>
         </div>
         <Footer />
       </ThemeProvider>

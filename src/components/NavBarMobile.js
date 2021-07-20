@@ -120,8 +120,10 @@ function NavBarMobile() {
   };
 
   const handleDrawerClose = () => {
-    setOpen(false);
-    console.log("close");
+    if ({open}.open) {
+      setOpen(false);
+      console.log("close");
+    }
   };
 
   return (

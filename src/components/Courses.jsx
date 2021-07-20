@@ -91,7 +91,6 @@ function Courses() {
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-
                     <Nav.Link className="course-link" eventKey="#course11">
                       Proposition Creation
                     </Nav.Link>
