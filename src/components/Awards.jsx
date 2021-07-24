@@ -56,6 +56,8 @@ import asianAmerican5 from '../Dream Art/library/5.jpg';
 import asianAmerican6 from '../Dream Art/library/6.jpg';
 import asianAmerican7 from '../Dream Art/library/7.jpg';
 import asianAmerican8 from '../Dream Art/library/8.jpg';
+import apArt2021_1 from '../Dream Art/2021AP Art/1.jpg';
+import apArt2021_2 from '../Dream Art/2021AP Art/2.jpg';
 
 function Awards() {
   return (
@@ -66,33 +68,40 @@ function Awards() {
           <p>
             2021: <br />
             <ul>
+              <li>
+                AP Art Full Score Artwork:
+                <br /> <br />
+                {window.innerWidth < 1000 ? null : <img className="resize-collection" src={apArt2021_1} fluid />}
+                {window.innerWidth < 1000 ? null : <img className="resize-collection" src={apArt2021_2} fluid />}
+                <br /> <br />
+              </li>
               <li>Scholastic Art and Writing Awards:
                 <ul>
                   <li>2 Gold Key</li>
                   <li>5 Silver Key</li>
                   <li>7 Honorable Mention</li>
                 </ul>
-                <br/>
-                  <div class = {window.innerWidth < 1000 ? "" : "container"}>
-                    <Row>
+                <br />
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
+                  <Row>
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img1} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img2} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img3} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img4} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img5} fluid />
-                    </Row>
-                    <Row>
+                  </Row>
+                  <Row>
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img6} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img7} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img8} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img9} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img10} fluid />
-                    </Row>
-                  </div>
-                
-                <br/>
-                
-               
+                  </Row>
+                </div>
+
+                <br />
+
+
               </li>
               <li>
                 Asian American Pacific Heritage Month Art Wall:
@@ -100,7 +109,7 @@ function Awards() {
                   <li>25 students' artwork featured</li>
                 </ul>
                 <br />
-                <div class = {window.innerWidth < 1000 ? "" : "container"}>
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
                   <Row>
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican1} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican2} fluid />
@@ -128,7 +137,7 @@ function Awards() {
                   <li>8 Honorable Mentions</li>
                 </ul>
                 <br />
-                <div class = {window.innerWidth < 1000 ? "" : "container"}>
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
                   <Row>
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Scholastic1} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Scholastic2} fluid />
@@ -156,7 +165,7 @@ function Awards() {
                   <li>Kayla Weiss &emsp; &emsp; Grade 11-12 &emsp; Gold Award</li>
                 </ul>
                 <br />
-                <div class = {window.innerWidth < 1000 ? "" : "container"}>
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
                   <Row>
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Youth1} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Youth2} fluid />
@@ -175,118 +184,114 @@ function Awards() {
                 <br />
               </li>
               <li>
-                AP Art:
-                <ul>
-                  <li>Numerous students received full scores (5)</li>
-                </ul>
-                <br/>
-                {window.innerWidth < 1000 ? null : <img className = "resize-collection" src={img2020AP} fluid/>}
-                <br/> <br/>
+                AP Art Full Score Artwork:
+                <br /> <br />
+                {window.innerWidth < 1000 ? null : <img className="resize-collection" src={img2020AP} fluid />}
+                <br /> <br />
               </li>
-              <li>One student accepted to the California State Summer School for the Arts</li>
-              <li>2020 Summer School Art:
-                <br/> <br/>
-                <div class = {window.innerWidth < 1000 ? "" : "container"}>
+              <li>1 student accepted to the California State Summer School for the Arts
+                <br /> <br />
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
                   <Row>
-                    <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Summer1} fluid/>
-                    <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Summer2} fluid/>
-                    <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Summer3} fluid/>
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Summer1} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Summer2} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2020Summer3} fluid />
                   </Row>
                 </div>
-                <br/>
+                <br />
               </li>
             </ul>
           </p>
           <p>
             2019:
             <ul>
-              <li>One student accepted to the California State Summer School for the Arts with a scholarship</li>
+              <li>1 student accepted to the California State Summer School for the Arts with a scholarship</li>
               <li>Toyota Dream Car Art Contest:
                 <ul>
                   <li>2 students were semifinalists</li>
                 </ul>
-                <br/>
-                <div class = {window.innerWidth < 1000 ? "" : "container"}>
+                <br />
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
                   <Row>
-                    <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Toyota1} fluid/>
-                    <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Toyota2} fluid/>
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Toyota1} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Toyota2} fluid />
                   </Row>
 
                 </div>
-                <br/>
-              </li> 
+                <br />
+              </li>
               <li>Fine Arts League of Cupertino:
                 <ul>
                   <li>1 student's artwork was selected for display</li>
                 </ul>
-                <br/>
-                <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019FineArts} fluid/>
-                <br/> <br/>
+                <br />
+                <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019FineArts} fluid />
+                <br /> <br />
               </li>
               <li>
                 2019 Summer School Art:
-                <br/> <br/>
-                <div class = {window.innerWidth < 1000 ? "" : "container"}>
+                <br /> <br />
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
                   <Row>
-                    <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer1} fluid/>
-                    <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer2} fluid/>
-                    <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer3} fluid/>
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer1} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer2} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer3} fluid />
                   </Row>
                 </div>
-                <br/>
+                <br />
               </li>
             </ul>
           </p>
           <p>
             2017:
             <ul>
-            <li>University and College Admission:
-            <ul>
-              <li>One student accepted by ArtCenter College with a scholarship</li>
-            </ul>
-            <br/>
-            <div class = {window.innerWidth < 1000 ? "" : "container"}>
-              <Row>
-                <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2017ArtCenter1} fluid />
-                <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2017ArtCenter2} fluid />
-              </Row>
-            </div>
-            <br/>
+              <li>University and College Admission:
+                <ul>
+                  <li>1 student accepted by ArtCenter College with a scholarship</li>
+                </ul>
+                <br />
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
+                  <Row>
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2017ArtCenter1} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2017ArtCenter2} fluid />
+                  </Row>
+                </div>
+                <br />
 
-            </li>
+              </li>
             </ul>
           </p>
           <p>
             2016:
             <ul>
-            <li>Future Stars Bay Area Youth Art Exhibition:
-            <ul>
-              <li>2 students won the Most Creative Award</li>
-            </ul>
-            <br/>
-            <div class = {window.innerWidth < 1000 ? "" : "container"}>
-              <Row>
-                <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2016FutureStars1} fluid />
-                <img className = {window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2016FutureStars2} fluid />
-              </Row>
-            </div>
-            <br/>
-            </li>
+              <li>Future Stars Bay Area Youth Art Exhibition:
+                <ul>
+                  <li>2 students won the Most Creative Award</li>
+                </ul>
+                <br />
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
+                  <Row>
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2016FutureStars1} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2016FutureStars2} fluid />
+                  </Row>
+                </div>
+                <br />
+              </li>
             </ul>
             <ul>
               <li>California School Employees Association Art Contest
                 <ul>
                   <li>3 students won the annual prize</li>
                 </ul>
-                <br/>
-                <div class = {window.innerWidth < 1000 ? "" : "container"}>
+                <br />
+                <div class={window.innerWidth < 1000 ? "" : "container"}>
                   <Row>
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2016California1} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2016California2} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2016California3} fluid />
                   </Row>
                 </div>
-                <br/>
+                <br />
               </li>
             </ul>
           </p>
