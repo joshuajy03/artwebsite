@@ -48,6 +48,14 @@ import img2016FutureStars2 from '../Dream Art/Awards/2016 Future Stars/Zhiyuan L
 import img2016California1 from '../Dream Art/Awards/2016  California School Employees Association/Amy.jpg';
 import img2016California2 from '../Dream Art/Awards/2016  California School Employees Association/Nina.jpg';
 import img2016California3 from '../Dream Art/Awards/2016  California School Employees Association/3.jpg';
+import asianAmerican1 from '../Dream Art/library/1.jpg';
+import asianAmerican2 from '../Dream Art/library/2.jpg';
+import asianAmerican3 from '../Dream Art/library/3.jpg';
+import asianAmerican4 from '../Dream Art/library/4.jpg';
+import asianAmerican5 from '../Dream Art/library/5.jpg';
+import asianAmerican6 from '../Dream Art/library/6.jpg';
+import asianAmerican7 from '../Dream Art/library/7.jpg';
+import asianAmerican8 from '../Dream Art/library/8.jpg';
 
 function Awards() {
   return (
@@ -80,8 +88,6 @@ function Awards() {
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img9} fluid />
                     <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={awards2021img10} fluid />
                     </Row>
-
-                    
                   </div>
                 
                 <br/>
@@ -93,6 +99,22 @@ function Awards() {
                 <ul>
                   <li>25 students' artwork featured</li>
                 </ul>
+                <br />
+                <div class = {window.innerWidth < 1000 ? "" : "container"}>
+                  <Row>
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican1} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican2} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican3} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican4} fluid />
+                  </Row>
+                  <Row>
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican5} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican6} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican7} fluid />
+                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={asianAmerican8} fluid />
+                  </Row>
+                </div>
+                <br />
               </li>
             </ul>
           </p>
