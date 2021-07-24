@@ -1,5 +1,5 @@
 .container {
-    background-color: #F2E9E4;
+    background-color: #ffffff;
     border-radius: 25px;
     min-width: 75vw;
     max-width: 90vw;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #C9ADA7;
+    background-color: #d8fce0;
 }
 
 .map {
