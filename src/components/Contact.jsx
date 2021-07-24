@@ -3,6 +3,7 @@ import './WebPage.css';
 import Footer from "./Footer";
 
 function Contact() {
+  var mapMinHeight = window.innerHeight * 0.9;
   return (
     <div className="contact">
       <div class="container pt-3 pb-5 mb-3 mt-3">
@@ -12,13 +13,14 @@ function Contact() {
             Phone: 408-384-1101 <br />
             Email: yyanni78@hotmail.com <br />
             WeChat ID:  adambecky <br />
-            Studio Address: Newsom AVE Cupertino 95014 <br />
+            Studio Address: Newsom Ave Cupertino 95014 <br />
             PayPal: Please Contact Ms. Ying
           </p>
         </div>
         <iframe
           width="90%"
-          height="450"
+          height={mapMinHeight}
+          className="map"
           loading="lazy"
           allowfullscreen
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCtb3f0glg8i6LcX-Rwj8BTMHOaiS920fU

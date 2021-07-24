@@ -22,6 +22,7 @@ import IndustrialProductDesignImgs from "./IndustrialProductDesignImgs";
 import ArchitecturalDesignImgs from "./ArchitecturalDesignImgs";
 import PortfolioImgs from "./PortfolioImgs";
 import Collapse from 'react-bootstrap/Collapse'
+import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -41,77 +42,77 @@ function Courses() {
               <Col md={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course1">
+                    <Nav.Link as={Link} className="course-link" action href="#course1">
                       Sketch
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course2">
+                    <Nav.Link as={Link} className="course-link" action href="#course2">
                       Charcoal
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course3">
+                    <Nav.Link as={Link} className="course-link" action href="#course3">
                       Color Pencil
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course4">
+                    <Nav.Link as={Link} className="course-link" action href="#course4">
                       Acrylic
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course5">
+                    <Nav.Link as={Link} className="course-link" action href="#course5">
                       Water Color
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course6">
+                    <Nav.Link as={Link} className="course-link" action href="#course6">
                       Oil Painting
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course7">
+                    <Nav.Link as={Link} className="course-link" action href="#course7">
                       Color Composition
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course8">
+                    <Nav.Link as={Link} className="course-link" action href="#course8">
                       Black and White Composition
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course9">
+                    <Nav.Link as={Link} className="course-link" action href="#course9">
                       Illustration Design
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course10">
+                    <Nav.Link as={Link} className="course-link" action href="#course10">
                       Comic Design
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course11">
+                    <Nav.Link as={Link} className="course-link" action href="#course11">
                       Proposition Creation
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course12">
+                    <Nav.Link as={Link} className="course-link" href="#course12">
                       Graphic Design
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course13">
+                    <Nav.Link as={Link} className="course-link" href="#course13">
                       Industrial Product Design
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course14">
+                    <Nav.Link as={Link} className="course-link" href="#course14">
                       Architectural Design
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link className="course-link" eventKey="#course15">
+                    <Nav.Link as={Link} className="course-link" href="#course15">
                       Portfolio
                     </Nav.Link>
                   </Nav.Item>

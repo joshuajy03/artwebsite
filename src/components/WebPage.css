@@ -10,7 +10,9 @@ body {
     background-color: #C9ADA7;
 }
 
-
+.map {
+    min-height: 450px;
+}
 p {
     color: #22223B;
 }
