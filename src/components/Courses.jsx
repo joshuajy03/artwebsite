@@ -82,6 +82,11 @@ function Courses() {
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
+                    <Nav.Link as={Link} className="course-link" action href="#course11">
+                      Proposition Creation
+                    </Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
                     <Nav.Link as={Link} className="course-link" action href="#course9">
                       Illustration Design
                     </Nav.Link>
@@ -91,11 +96,7 @@ function Courses() {
                       Comic Design
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link as={Link} className="course-link" action href="#course11">
-                      Proposition Creation
-                    </Nav.Link>
-                  </Nav.Item>
+                  
                   <Nav.Item>
                     <Nav.Link as={Link} className="course-link" href="#course12">
                       Graphic Design
