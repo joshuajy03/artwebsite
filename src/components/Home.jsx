@@ -3,6 +3,7 @@ import './WebPage.css';
 import Poster from "../Dream Art/poster.jpg"
 import Footer from "./Footer";
 import HomeSlide from "./HomeSlide.jsx";
+import HomeSlideMobile from "./HomeSlideMobile";
 
 function Home() {
   return (
@@ -29,7 +30,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <HomeSlide />
+        {window.innerWidth < 1000 ? <HomeSlideMobile /> : <HomeSlide />}
       </div>
     </div>
   );
