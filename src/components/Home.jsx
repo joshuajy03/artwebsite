@@ -1,11 +1,46 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './WebPage.css';
 import Poster from "../Dream Art/poster.jpg"
 import Footer from "./Footer";
 import HomeSlide from "./HomeSlide.jsx";
 import HomeSlideMobile from "./HomeSlideMobile";
 
+const displayDesktop = () => {
+  return (
+    <HomeSlide />
+  );
+};
+
+const displayMobile = () => {
+  return (
+    <HomeSlideMobile />
+  );
+};
+
+
 function Home() {
+  const [state, setState] = useState({
+    mobileView: false,
+    drawerOpen: false,
+  });
+
+  const { mobileView, drawerOpen } = state;
+
+  useEffect(() => {
+    const setResponsiveness = () => {
+      return window.innerWidth < 1000
+        ? setState((prevState) => ({ ...prevState, mobileView: true }))
+        : setState((prevState) => ({ ...prevState, mobileView: false }));
+    };
+
+    setResponsiveness();
+
+    window.addEventListener("resize", () => setResponsiveness());
+
+    return () => {
+      window.removeEventListener("resize", () => setResponsiveness());
+    };
+  }, []);
   return (
     <div className="home">
       <div class="container pt-3 pb-3 my-3">
@@ -30,7 +65,7 @@ function Home() {
             </p>
           </div>
         </div>
-        {window.innerWidth < 1000 ? <HomeSlideMobile /> : <HomeSlide />}
+        {mobileView ? displayMobile() : displayDesktop()}
       </div>
     </div>
   );
