@@ -53,7 +53,7 @@ function Home() {
             />
           </div>
           <div class="col-lg-4">
-            <h1 class="font-weight-light" style={{textAlign: "left"}}>Yi Ying</h1>
+            <h2 style={{textAlign: "left"}}>Yi Ying</h2>
             <div class="my-3">
             </div>
             <p style={{textAlign: "left"}}>

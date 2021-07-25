@@ -1,8 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
+import IconButton from '@material-ui/core/IconButton';
+import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+
+import { makeStyles, useTheme } from "@material-ui/core/styles";
+
+const styles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+  },
+  menuButton: {
+    color: "#FAC9B8",
+    marginRight: '16',
+  },
+  title: {
+    flexGrow: 1,
+  },
+}));
+
+
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
+  const classes = styles()
+  const theme = useTheme();
 
   // Show button when page is scorlled upto given distance
   const toggleVisibility = () => {
@@ -28,9 +49,9 @@ export default function ScrollToTop() {
 
   return (
     <div className="scroll-to-top">
-        <Button variant = "link" onClick={scrollToTop} block>
-          Back to Top
-        </Button>
+      <IconButton className={classes.menuButton} onClick={scrollToTop} block>
+        <ArrowUpwardIcon />
+      </IconButton>
     </div>
   );
 }

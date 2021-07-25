@@ -35,33 +35,33 @@ function NavBar() {
     return (
         <AppBar position="sticky">
             <Toolbar color="rgba(75, 59, 71, 0.87)" className={classes.bar}>
-                <Link style={{ textDecoration: 'none' }, {color : "#C9ADA7"}}  to="/">
+                <Link style={{ textDecoration: 'none' }, {color : "#FAC9B8"}}  to="/">
                     <img src={logo} className={classes.logo} />
                 </Link>
                 <Typography variant="h6" className={classes.space}>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link style={{ textDecoration: 'none' }, {color : "#C9ADA7"}}  to="/">
+                    <Link style={{ textDecoration: 'none' }, {color : "#FAC9B8"}}  to="/">
                         Home
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link style={{ textDecoration: 'none' }, {color : "#C9ADA7"}}  to="/awards">
+                    <Link style={{ textDecoration: 'none' }, {color : "#FAC9B8"}}  to="/awards">
                         Awards and Achievements
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link style={{ textDecoration: 'none' }, {color : "#C9ADA7"}}  to="/courses">
+                    <Link style={{ textDecoration: 'none' }, {color : "#FAC9B8"}}  to="/courses">
                         Courses and Gallery
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link style={{ textDecoration: 'none' }, {color : "#C9ADA7"}}  to="/registration">
+                    <Link style={{ textDecoration: 'none' }, {color : "#FAC9B8"}}  to="/registration">
                         Registration Form
                     </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    <Link style={{ textDecoration: 'none' }, {color : "#C9ADA7"}} to="/contact">
+                    <Link style={{ textDecoration: 'none' }, {color : "#FAC9B8"}} to="/contact">
                         Contact and PayPal
                     </Link>
                 </Typography>
