@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/artwebsite/static/css/main.d9e8dc53.chunk.css",
-    "main.js": "/artwebsite/static/js/main.1b7d6b92.chunk.js",
-    "main.js.map": "/artwebsite/static/js/main.1b7d6b92.chunk.js.map",
-    "runtime-main.js": "/artwebsite/static/js/runtime-main.3af4ad9a.js",
-    "runtime-main.js.map": "/artwebsite/static/js/runtime-main.3af4ad9a.js.map",
-    "static/js/2.233a58b5.chunk.js": "/artwebsite/static/js/2.233a58b5.chunk.js",
-    "static/js/2.233a58b5.chunk.js.map": "/artwebsite/static/js/2.233a58b5.chunk.js.map",
-    "static/js/3.6de7c75f.chunk.js": "/artwebsite/static/js/3.6de7c75f.chunk.js",
-    "static/js/3.6de7c75f.chunk.js.map": "/artwebsite/static/js/3.6de7c75f.chunk.js.map",
+    "main.css": "/artwebsite/static/css/main.be0148af.chunk.css",
+    "main.js": "/artwebsite/static/js/main.d2a5c315.chunk.js",
+    "main.js.map": "/artwebsite/static/js/main.d2a5c315.chunk.js.map",
+    "runtime-main.js": "/artwebsite/static/js/runtime-main.52c51841.js",
+    "runtime-main.js.map": "/artwebsite/static/js/runtime-main.52c51841.js.map",
+    "static/js/2.75eff8ba.chunk.js": "/artwebsite/static/js/2.75eff8ba.chunk.js",
+    "static/js/2.75eff8ba.chunk.js.map": "/artwebsite/static/js/2.75eff8ba.chunk.js.map",
+    "static/js/3.1ee80ed1.chunk.js": "/artwebsite/static/js/3.1ee80ed1.chunk.js",
+    "static/js/3.1ee80ed1.chunk.js.map": "/artwebsite/static/js/3.1ee80ed1.chunk.js.map",
     "index.html": "/artwebsite/index.html",
-    "static/css/main.d9e8dc53.chunk.css.map": "/artwebsite/static/css/main.d9e8dc53.chunk.css.map",
-    "static/js/2.233a58b5.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.233a58b5.chunk.js.LICENSE.txt",
+    "static/css/main.be0148af.chunk.css.map": "/artwebsite/static/css/main.be0148af.chunk.css.map",
+    "static/js/2.75eff8ba.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.75eff8ba.chunk.js.LICENSE.txt",
     "static/media/1.0640087b.jpg": "/artwebsite/static/media/1.0640087b.jpg",
     "static/media/1.22dd013f.jpg": "/artwebsite/static/media/1.22dd013f.jpg",
     "static/media/1.2b558d2d.jpg": "/artwebsite/static/media/1.2b558d2d.jpg",
@@ -336,13 +336,13 @@
     "static/media/bluelogolong.99d68bce.jpg": "/artwebsite/static/media/bluelogolong.99d68bce.jpg",
     "static/media/bluelogoshort.97e34596.jpg": "/artwebsite/static/media/bluelogoshort.97e34596.jpg",
     "static/media/image0.8553fbb5.jpeg": "/artwebsite/static/media/image0.8553fbb5.jpeg",
-    "static/media/logo.5a93ef2f.svg": "/artwebsite/static/media/logo.5a93ef2f.svg",
+    "static/media/logo.7f799ddd.svg": "/artwebsite/static/media/logo.7f799ddd.svg",
     "static/media/poster.0f82c9a7.jpg": "/artwebsite/static/media/poster.0f82c9a7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3af4ad9a.js",
-    "static/js/2.233a58b5.chunk.js",
-    "static/css/main.d9e8dc53.chunk.css",
-    "static/js/main.1b7d6b92.chunk.js"
+    "static/js/runtime-main.52c51841.js",
+    "static/js/2.75eff8ba.chunk.js",
+    "static/css/main.be0148af.chunk.css",
+    "static/js/main.d2a5c315.chunk.js"
   ]
 }
