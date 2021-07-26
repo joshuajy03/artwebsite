@@ -27,7 +27,6 @@ function Footer() {
                 <ScrollToTop />
             </div>
             <footer className="main-footer">
-
                 <div className="footer-container">
                     <hr />
                     <div className="row-info">
