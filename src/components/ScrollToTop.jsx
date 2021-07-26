@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { Button } from "react-bootstrap";
-import IconButton from '@material-ui/core/IconButton';
+import Button from '@material-ui/core/Button';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
-
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 
 const styles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-  },
   menuButton: {
     color: "#FAC9B8",
+    backgroundColor : "#22223B",
     marginRight: '16',
+    fontSize: "smaller",
+    flexDirection: "column",
+    
   },
   title: {
     flexGrow: 1,
@@ -49,9 +48,10 @@ export default function ScrollToTop() {
 
   return (
     <div className="scroll-to-top">
-      <IconButton className={classes.menuButton} onClick={scrollToTop} block>
+      <Button className={classes.menuButton} onClick={scrollToTop} block>
         <ArrowUpwardIcon />
-      </IconButton>
+        Top
+      </Button>
     </div>
   );
 }
