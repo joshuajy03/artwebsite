@@ -16,12 +16,11 @@
     background-color: #22223B;
     width: 100%;
     flex-grow: 1;
-
     flex-direction: column-reverse;
 
 }
 .scroll-button{
-    margin-right: 16px;
+    margin-right: 8px;
     text-align: right;
 }
 
