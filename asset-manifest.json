@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/artwebsite/static/css/main.4b7e4718.chunk.css",
-    "main.js": "/artwebsite/static/js/main.bd569407.chunk.js",
-    "main.js.map": "/artwebsite/static/js/main.bd569407.chunk.js.map",
-    "runtime-main.js": "/artwebsite/static/js/runtime-main.52c51841.js",
-    "runtime-main.js.map": "/artwebsite/static/js/runtime-main.52c51841.js.map",
-    "static/js/2.8091c28b.chunk.js": "/artwebsite/static/js/2.8091c28b.chunk.js",
-    "static/js/2.8091c28b.chunk.js.map": "/artwebsite/static/js/2.8091c28b.chunk.js.map",
-    "static/js/3.1ee80ed1.chunk.js": "/artwebsite/static/js/3.1ee80ed1.chunk.js",
-    "static/js/3.1ee80ed1.chunk.js.map": "/artwebsite/static/js/3.1ee80ed1.chunk.js.map",
+    "main.js": "/artwebsite/static/js/main.77ff4138.chunk.js",
+    "main.js.map": "/artwebsite/static/js/main.77ff4138.chunk.js.map",
+    "runtime-main.js": "/artwebsite/static/js/runtime-main.3af4ad9a.js",
+    "runtime-main.js.map": "/artwebsite/static/js/runtime-main.3af4ad9a.js.map",
+    "static/js/2.e0ace0aa.chunk.js": "/artwebsite/static/js/2.e0ace0aa.chunk.js",
+    "static/js/2.e0ace0aa.chunk.js.map": "/artwebsite/static/js/2.e0ace0aa.chunk.js.map",
+    "static/js/3.6de7c75f.chunk.js": "/artwebsite/static/js/3.6de7c75f.chunk.js",
+    "static/js/3.6de7c75f.chunk.js.map": "/artwebsite/static/js/3.6de7c75f.chunk.js.map",
     "index.html": "/artwebsite/index.html",
     "static/css/main.4b7e4718.chunk.css.map": "/artwebsite/static/css/main.4b7e4718.chunk.css.map",
-    "static/js/2.8091c28b.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.8091c28b.chunk.js.LICENSE.txt",
+    "static/js/2.e0ace0aa.chunk.js.LICENSE.txt": "/artwebsite/static/js/2.e0ace0aa.chunk.js.LICENSE.txt",
     "static/media/1.0640087b.jpg": "/artwebsite/static/media/1.0640087b.jpg",
     "static/media/1.22dd013f.jpg": "/artwebsite/static/media/1.22dd013f.jpg",
     "static/media/1.2b558d2d.jpg": "/artwebsite/static/media/1.2b558d2d.jpg",
@@ -335,14 +335,12 @@
     "static/media/Zhiyuan Li.af811892.jpg": "/artwebsite/static/media/Zhiyuan Li.af811892.jpg",
     "static/media/bluelogolong.99d68bce.jpg": "/artwebsite/static/media/bluelogolong.99d68bce.jpg",
     "static/media/bluelogoshort.97e34596.jpg": "/artwebsite/static/media/bluelogoshort.97e34596.jpg",
-    "static/media/image0.8553fbb5.jpeg": "/artwebsite/static/media/image0.8553fbb5.jpeg",
-    "static/media/logo.7f799ddd.svg": "/artwebsite/static/media/logo.7f799ddd.svg",
     "static/media/poster.0f82c9a7.jpg": "/artwebsite/static/media/poster.0f82c9a7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.52c51841.js",
-    "static/js/2.8091c28b.chunk.js",
+    "static/js/runtime-main.3af4ad9a.js",
+    "static/js/2.e0ace0aa.chunk.js",
     "static/css/main.4b7e4718.chunk.css",
-    "static/js/main.bd569407.chunk.js"
+    "static/js/main.77ff4138.chunk.js"
   ]
 }
