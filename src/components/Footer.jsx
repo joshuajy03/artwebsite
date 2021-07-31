@@ -1,6 +1,5 @@
 import React from "react";
 import './WebPage.css';
-import { Container, Row, Col, Figure, ButtonGroup, Button } from "react-bootstrap";
 import ScrollToTop from "./ScrollToTop";
 import "./Footer.css"
 import { makeStyles, useTheme } from "@material-ui/core/styles";

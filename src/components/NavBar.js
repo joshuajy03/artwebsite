@@ -1,7 +1,5 @@
 import React from 'react'
-import CustomBtn from './CustomBtn'
 import logo from '../Dream Art/logos/bluelogolong.jpg'
-import logoMobile from '../image0.jpeg'
 import { Toolbar, Typography, AppBar } from '@material-ui/core'
 import { Link, withRouter } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";

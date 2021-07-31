@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import NavBar from './components/NavBar'
-import handleDrawerClose from './components/NavBar'
 import NavBarMobile from './components/NavBarMobile'
 import { Route, Switch } from "react-router-dom";
 import { HashRouter} from "react-router-dom";
@@ -8,7 +6,6 @@ import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import { Home, Awards, Courses, Gallery, Registration, Contact } from "./components";
-import { ClickAwayListener } from '@material-ui/core';
 import Footer from './components/Footer';
 
 const displayDesktop = () => {

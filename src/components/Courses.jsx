@@ -1,10 +1,7 @@
 import React from "react";
 import './WebPage.css';
-import { Container, Row, Col, Figure, ButtonGroup, Button } from "react-bootstrap";
-import FigureImage from 'react-bootstrap/FigureImage';
-import Image from 'react-bootstrap/Image'
+import { Container, Row, Col } from "react-bootstrap";
 import SketchImgs from "./SketchImgs";
-import ListGroup from 'react-bootstrap/ListGroup'
 import Nav from 'react-bootstrap/Nav'
 import Tab from 'react-bootstrap/Tab'
 import CharcoalImgs from "./CharcoalImgs";

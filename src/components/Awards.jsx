@@ -1,9 +1,6 @@
-import { List } from "@material-ui/core";
 import React from "react";
 import './WebPage.css';
-import Footer from "./Footer";
 import { Container, Row, Col } from "react-bootstrap";
-import { Image } from "react-bootstrap";
 import "./Awards.css";
 import awards2021img1 from '../Dream Art/Awards/2021_Scholastic/6.jpg';
 import awards2021img2 from '../Dream Art/Awards/2021_Scholastic/1.jpg';
@@ -205,7 +202,16 @@ function Awards() {
           <p>
             2019:
             <ul>
-              <li>1 student accepted to the California State Summer School for the Arts with a scholarship</li>
+              <li>1 student accepted to the CSSSA (California State Summer School for the Arts) with a scholarship</li>
+              <br /> <br />
+              <div class={window.innerWidth < 1000 ? "" : "container"}>
+                <Row>
+                  <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer1} fluid />
+                  <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer2} fluid />
+                  <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer3} fluid />
+                </Row>
+              </div>
+              <br />
               <li>Toyota Dream Car Art Contest:
                 <ul>
                   <li>2 students were semifinalists</li>
@@ -227,18 +233,6 @@ function Awards() {
                 <br />
                 <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019FineArts} fluid />
                 <br /> <br />
-              </li>
-              <li>
-                2019 Summer School Art:
-                <br /> <br />
-                <div class={window.innerWidth < 1000 ? "" : "container"}>
-                  <Row>
-                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer1} fluid />
-                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer2} fluid />
-                    <img className={window.innerWidth < 1000 ? "resize-img-mobile" : "resize-img"} src={img2019Summer3} fluid />
-                  </Row>
-                </div>
-                <br />
               </li>
             </ul>
           </p>
